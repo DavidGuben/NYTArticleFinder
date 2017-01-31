@@ -98,7 +98,7 @@
 	<!-- Footer Region -->
 	<div class="row">
 		<div class="col-sm-12">
-			<a href="http://davidguben-portfolio2016.herokuapp.com">Portfolio - David Guben</a>
+			<a href="http://davidguben-portfolio.herokuapp.com">Portfolio - David Guben</a>
 			<!-- Line Break followed by closing -->
 			<hr />
 		</div>

@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
-
 	<meta charset="UTF-8">
 	<title>NYT | Article Finder</title>
-
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-=======
 	<meta charset="UTF-8">
 	<title>New York Times Search</title>
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
->>>>>>> c696bea748ac6435b19c746cc5fd6b9fd0c813dc
 
 	<!-- Bootswatch Styling for Improving the Aesthetics -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
@@ -24,21 +19,13 @@
 
 	<!-- Style to fix the issue of text extending past panel length -->
 	<style>
-<<<<<<< HEAD
-
 		.panel-body a
-=======
-		.panel-body a 
->>>>>>> c696bea748ac6435b19c746cc5fd6b9fd0c813dc
+		.panel-body a
 		{
 		    word-break:break-all;
 		}
 
 	</style>
-<<<<<<< HEAD
-
-=======
->>>>>>> c696bea748ac6435b19c746cc5fd6b9fd0c813dc
 </head>
 <body>
 
@@ -46,13 +33,10 @@
 <div class="container">
 
 	<!-- Jumbotron for Title -->
-<<<<<<< HEAD
 	<div class="jumbotron" style="background-color: #FFFFFF; color: white; border-bottom:medium solid #000000;">
 		<h1 class="text-center"><strong><i class=""><img src="assets\img\The_New_York_Times_Logo.png" /></i>  <br /> <span style="color:#000000;font-size:52px;">Article Finder</span></strong></h1>
-=======
 	<div class="jumbotron" style="background-color: #20315A ; color: white;">
 		<h1 class="text-center"><strong><i class="fa fa-newspaper-o"></i> New York Times Search</strong></h1>
->>>>>>> c696bea748ac6435b19c746cc5fd6b9fd0c813dc
 	</div>
 
 	<!-- Row for Searching New York Times -->
@@ -60,15 +44,12 @@
 		<div class="col-sm-12">
 		<br>
 			<!-- First panel is for handling the search parameters -->
-<<<<<<< HEAD
 			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h3 class="panel-title"><strong>Refine Search</strong></h3>
-=======
 			<div class="panel panel-primary">
 				<div class="panel-heading">
 					<h3 class="panel-title"><strong><i class="fa  fa-list-alt"></i>   Search Parameters</strong></h3>
->>>>>>> c696bea748ac6435b19c746cc5fd6b9fd0c813dc
 				</div>
 				<div class="panel-body">
 
@@ -89,11 +70,8 @@
 							<!-- Setting the option for 5 as default -->
 							<option value=5 selected>5</option>
 							<option value=10>10</option>
-<<<<<<< HEAD
 						</select>
-=======
-						</select>			  
->>>>>>> c696bea748ac6435b19c746cc5fd6b9fd0c813dc
+						</select>
 					  </div>
 
 				  	  <!-- Here we capture the Start Year Parameter-->
@@ -109,14 +87,10 @@
 					  </div>
 
 					  <!-- Here we have our final submit button -->
-<<<<<<< HEAD
 					  <button type="submit" class="btn btn-primary" id="runSearch"><i class="fa fa-search"></i> Search</button>
   					  <button type="button" class="btn btn-danger" id="clearAll"><i class="fa fa-trash"></i> Clear</button>
-=======
 					  <button type="submit" class="btn btn-default" id="runSearch"><i class="fa fa-search"></i> Search</button>
   					  <button type="button" class="btn btn-default" id="clearAll"><i class="fa fa-trash"></i> Clear Results</button>
->>>>>>> c696bea748ac6435b19c746cc5fd6b9fd0c813dc
-
 					</form>
 				</div>
 			</div>
@@ -156,7 +130,7 @@
 <<<<<<< HEAD
 			<a href="http://davidguben-portfolio2016.herokuapp.com">Portfolio - David Guben</a>
 =======
-			
+
 			<!-- Line Break followed by closing -->
 			<hr>
 			<h5 class="text-center"><small>Made by Ahmed with lots and lots of <i class="fa fa-heart"></i></small></h5>
@@ -169,7 +143,7 @@
 <<<<<<< HEAD
 
 =======
-	
+
 >>>>>>> c696bea748ac6435b19c746cc5fd6b9fd0c813dc
 <!-- jQuery JS -->
 <script src="https://code.jquery.com/jquery.js"></script>
